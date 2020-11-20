@@ -1,3 +1,6 @@
+table, tr, td {
+  border: 0px;
+}
 <table>
 <tr><td>SuperMoon.rmd</td><td> </td><td>R code, intended for use in RStudio.</td></tr>
 <tr><td>SuperMoon.md</td><td> </td><td>Github-browsable code with example results, including 2001-2100 supermoon listing.</td></tr>
