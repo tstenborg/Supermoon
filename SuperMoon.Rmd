@@ -1,16 +1,18 @@
 ---
 title: "21st Century Supermoon Estimation in R"
-output: html_notebook
+output: html_document
 ---
 
 ```{r main_definitions}
 
-suppressMessages(library(extrafont))   # Extra fonts, used for graphs.
-suppressMessages(library(ggplot2))     # Graph plotting library.
-suppressMessages(library(lubridate))   # Date-time manipulation utilities.
-suppressMessages(library(pkgcond))     # Suppress inefficiency warnings when converting mpfr values to numerics.
-suppressMessages(library(Rmpfr))       # Arbitrary-precision arithmetic.
-suppressMessages(library(scales))      # For formatting date axes in graphs.
+knitr::opts_chunk$set(cache = TRUE, results = "hold") # Group output by chunk.
+
+suppressMessages(library(extrafont))    # Extra fonts, used for graphs.
+suppressMessages(library(ggplot2))      # Graph plotting library.
+suppressMessages(library(lubridate))    # Date-time manipulation utilities.
+suppressMessages(library(pkgcond))      # Suppress inefficiency warnings when converting mpfr values to numerics.
+suppressMessages(library(Rmpfr))        # Arbitrary-precision arithmetic.
+suppressMessages(library(scales))       # For formatting date axes in graphs.
 
 
 AngleDegreesToRadians <- function(angle.degrees) {
@@ -2214,7 +2216,7 @@ p <- ggplot() +
         theme_bw() + 
         theme_classic() + 
         theme(axis.text.x = element_text(color="#000000"),
-          axis.text.y = element_text(color="#000000"),
+              axis.text.y = element_text(color="#000000"),
               legend.background = element_rect(color = NA, fill = "transparent"),
               legend.box.background = element_rect(color = NA, fill = "transparent"),
               panel.background = element_rect(fill = "transparent"),
@@ -2225,12 +2227,8 @@ p <- ggplot() +
         xlab("\ndate (UTC)") +
         ylab("distance (km)\n")
 
-# Display graph.
-# N.B. Display will be suboptimal here, but better when saved as a png file.
-p
-
 # Save graph, large format for poster use.
-ggsave("supermoon_graph.png", bg = "transparent", scale = 1.7)
+ggsave("supermoon_graph.png", bg = "transparent", width = 11.9, height = 8.499, units = "in")
 ```
 
 ```{r example_graph_paper_style}
