@@ -2392,7 +2392,7 @@ p <- ggplot() +
 p
 ```
 
-![](SuperMoon_files/figure-gfm/example_graph_paper_style-1.png)<!-- -->
+![](example_graph_paper_style-1.png)<!-- -->
 
 ``` r
 # Save graph, small format for research paper use.
