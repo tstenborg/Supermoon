@@ -1,6 +1,6 @@
 ---
 title: "21st Century Supermoon Estimation in R"
-output: html_document
+output: github_document
 ---
 
 ```{r main_definitions}
