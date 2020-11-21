@@ -2371,7 +2371,7 @@ p <- ggplot() +
         geom_point(data = new.moon.data, aes(x = day.new.moon, y = distance.new.moon, color = "new moon"), shape = 4) + 
         ggtitle("Lunar Distance vs. Date", subtitle = "(with full and new moons overlaid)") + 
         guides(color = guide_legend(override.aes = list(shape = c(NA, 16, 4)))) + 
-        scale_color_manual(values = c("#18677E", "#18677E", "#18677E"), name = "Legend") + 
+        scale_color_manual(values = c("#000000", "#000000", "#000000"), name = "Legend") + 
         scale_x_datetime(labels = date_format("%d-%b-%Y")) + 
         scale_y_continuous(labels = comma) +
         theme_bw() + 
@@ -2392,7 +2392,7 @@ p <- ggplot() +
 p
 ```
 
-![](example_graph_paper_style-1.png)<!-- -->
+![](SuperMoon_files/figure-gfm/example_graph_paper_style-1.png)<!-- -->
 
 ``` r
 # Save graph, small format for research paper use.
