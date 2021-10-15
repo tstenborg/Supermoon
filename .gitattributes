@@ -1,2 +1,5 @@
 *.f linguist-detectable=false
 *.html linguist-detectable=false
+# .gitattributes file which reclassifies R Markdown files as R:
+*.Rmd linguist-language=R
+*.rmd linguist-language=R
