@@ -6,7 +6,7 @@ Supermoon estimator; prediction of the timing and distance of a perigee full or 
 
 <figure style="width:632px;">
   <img src="lunar_distance_vs_date.png" alt="MCMC parallelisation and Stan model inference speedup" width="632" height="390">
-  <figcaption>Figure 1. Lunar distance vs. date, over 2019 and 2020. Supermoons occur when a full or new moon coincides with minimum lunar distance. Adapted from Stenborg, (2022), below.</figcaption>
+  <figcaption>Figure 1. Lunar distance vs. date, over 2019 and 2020. Supermoons occur when a full or new moon coincides with minimum lunar distance. Adapted from Stenborg (2022), below.</figcaption>
 </figure>
 
 ---
