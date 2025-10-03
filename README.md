@@ -14,7 +14,7 @@ Supermoon estimator; prediction of the timing and distance of a perigee full or 
 ### Key Files
 
 - SuperMoon.rmd &nbsp;&nbsp; R code, intended for use in RStudio.<br />
-- SuperMoon.md &nbsp;&nbsp;&nbsp; Github-browsable code with example results, including 2001&ndash;2100 supermoon listing.
+- SuperMoon.md &nbsp;&nbsp;&nbsp; GitHub-browsable code with example results, including 2001&ndash;2100 supermoon listing.
 
 ### Software Requirements
 
