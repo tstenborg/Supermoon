@@ -26,4 +26,4 @@ The R program is supported by files implementing ELP-2000/82 (the Fortran progra
 
 ### Reference
 
-Stenborg, TN 2022, "[21st Century Supermoon Estimation in R](https://aspbooks.org/custom/publications/paper/532-0247.html)", in JE Ruiz, F Pierfederici and P Teuben (eds), Astronomical Data Analysis Software and Systems XXX, Astronomical Society of the Pacific, pp. 247&ndash;250.
+Stenborg, TN 2022, "[21st Century Supermoon Estimation in R](https://aspbooks.org/publications/532/247.pdf)", in JE Ruiz, F Pierfederici and P Teuben (eds), Astronomical Data Analysis Software and Systems XXX, Astronomical Society of the Pacific, pp. 247&ndash;250.
